@@ -20,5 +20,5 @@ Use **W and S** or **Up and Down** to go forwards and backwards in single multi-
 
 Oh, and I guess you could fap at the same time if you wanted. I dunno, jesus. Use your imagination.
 
-### Enjoy!  
+### Enjoy!
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Glint*
