@@ -8,10 +8,10 @@
 // @include      *://inkbunny.net/s/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
-// @homepageURL  https://github.com/GlintWrites/Fapbunny.git
-// @supportURL   https://github.com/GlintWrites/Fapbunny.git/issues
-// @downloadURL  https://github.com/GlintWrites/Fapbunny.git/master/Fapbunny.user.js
-// @updateURL    https://github.com/GlintWrites/Fapbunny.git/master/Fapbunny.user.js
+// @homepageURL  https://github.com/GlintWrites/Fapbunny
+// @supportURL   https://github.com/GlintWrites/Fapbunny/issues
+// @downloadURL  https://github.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
+// @updateURL    https://github.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
 // ==/UserScript==
 
 (function() {
