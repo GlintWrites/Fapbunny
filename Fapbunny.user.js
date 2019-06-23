@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fapbunny
 // @namespace    https://github.com/GlintWrites
-// @version      1.4.0
+// @version      1.4.1
 // @license      Unlicense
 // @description  A key-binding utility for one-handed keyboard navigation of Inkbunny ;D
 // @author       Glint
@@ -10,8 +10,8 @@
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @homepageURL  https://github.com/GlintWrites/Fapbunny
 // @supportURL   https://github.com/GlintWrites/Fapbunny/issues
-// @downloadURL  https://raw.githubusercontent.com/GlintWrites/Fapbunny/raw/master/Fapbunny.user.js
-// @updateURL    https://raw.githubusercontent.com/GlintWrites/Fapbunny/raw/master/Fapbunny.user.js
+// @downloadURL  https://github.com/GlintWrites/Fapbunny/raw/master/Fapbunny.user.js
+// @updateURL    https://github.com/GlintWrites/Fapbunny/raw/master/Fapbunny.user.js
 // ==/UserScript==
 
 (function() {
