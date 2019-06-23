@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Fapbunny
 // @namespace    https://github.com/GlintWrites
-// @version      1.3
+// @version      1.3.1
 // @license      Unlicense
 // @description  A key-binding utility for one-handed keyboard navigation of Inkbunny ;D
 // @author       Glint
-// @include      *://inkbunny.net/*
+// @include      *://inkbunny.net/s/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @homepageURL  https://github.com/GlintWrites/Fapbunny.git
