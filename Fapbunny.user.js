@@ -10,8 +10,8 @@
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @homepageURL  https://github.com/GlintWrites/Fapbunny
 // @supportURL   https://github.com/GlintWrites/Fapbunny/issues
-// @downloadURL  https://github.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
-// @updateURL    https://github.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
+// @downloadURL  https://raw.githubusercontent.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
+// @updateURL    https://raw.githubusercontent.com/GlintWrites/Fapbunny/master/Fapbunny.user.js
 // ==/UserScript==
 
 (function() {
