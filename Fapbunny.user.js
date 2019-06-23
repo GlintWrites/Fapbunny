@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fapbunny
 // @namespace    https://github.com/GlintWrites
-// @version      1.3.3
+// @version      1.4.0
 // @license      Unlicense
 // @description  A key-binding utility for one-handed keyboard navigation of Inkbunny ;D
 // @author       Glint
@@ -32,6 +32,13 @@
               "Thanks, and enjoy!\n"+
               "\t-Glint");
         localStorage.setItem('hasBeenRun', true);
+    }
+
+    //Instantly get to the top of the image
+    var pos = j(".elephant.elephant_white.magicboxParent").position();
+
+    if(pos){
+        scrollTo(0, pos.top);
     }
 
     //Event binding for key presses
