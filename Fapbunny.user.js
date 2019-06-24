@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fapbunny
 // @namespace    https://github.com/GlintWrites
-// @version      1.5.1
+// @version      1.5.3
 // @license      Unlicense
 // @description  A key-binding utility for one-handed keyboard navigation of Inkbunny ;D
 // @author       Glint
@@ -33,20 +33,22 @@
               "\t-Glint");
         localStorage.setItem('hasBeenRun', true);
     }
-	
-	var storySection = j("#storysectionfoo");
-	var pos = null;
+
+    var storySectionExists = j("#storysectionfoo").length;
+    var pos = null;
     //Instantly get to the top of the image or story
-	if(storySection){
-		pos = storySection.position();
-		storySection.focus();
-	}
-	else{
-		pos = j(".elephant.elephant_white.magicboxParent").position(); // Image position
-	}
-    if(pos){
-        scrollTo(0, pos.top);
+    if(storySectionExists == 1){
+        scrollTo(0, j('#storysectionfoo').offset().top); // Image absolute position.
+
+        j("#storysectionfoo").focus();
     }
+    else{
+        pos = j(".elephant.elephant_white.magicboxParent").position(); // Image position
+        if(pos){
+            scrollTo(0, pos.top);
+        }
+    }
+
 
     //Event binding for key presses
     document.onkeydown = checkKey;
